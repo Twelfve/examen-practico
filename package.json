@@ -1,0 +1,24 @@
+{
+  "name": "examen-practico",
+  "version": "1.0.0",
+  "description": "Elaborar el examen y subir el proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VICDACHM1212/examen-practico.git"
+  },
+  "author": "Victor Daniel Chavez Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VICDACHM1212/examen-practico/issues"
+  },
+  "homepage": "https://github.com/VICDACHM1212/examen-practico#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.17"
+  }
+}
