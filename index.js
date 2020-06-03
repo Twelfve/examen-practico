@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', pintoresRouter);
 //Conexion a mongodb
 mongoose.Promise = global.Promise;
-const cadena = 'mongodb+srv://Twelfve:gigabyteb250@chavezvictor-ug0y1.mongodb.net/pintores?retryWrites=true&w=majority';
+const cadena = 'mongodb+srv://Twelfve:admin@chavezvictor-ug0y1.mongodb.net/pintores?retryWrites=true&w=majority';
 mongoose.connect(cadena, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=>{
         console.log('Conexion establecida =D');
