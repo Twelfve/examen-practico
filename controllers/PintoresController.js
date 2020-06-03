@@ -15,7 +15,7 @@ pintoresController.list = (req, res)=>{
         console.log(pintor);
         res.render('../views/index',{
             pintores: pintor,
-            titulo: "Listado de pintores",
+            title: "Listado de pintores",
             year: new Date().getDate()
         })
     })
